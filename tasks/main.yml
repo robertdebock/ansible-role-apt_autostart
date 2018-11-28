@@ -1,0 +1,18 @@
+---
+# tasks file for apt_autostart
+- name: disable automatic service management on installation
+  copy:
+    dest: /usr/sbin/policy-rc.d
+    content: "exit 101"
+    mode: 0755
+  when:
+    - ansible_pkg_mgr == "apt"
+    - apt_autostart_state == "disabled"
+
+- name: enable automatic service management on installation
+  file:
+    path: /usr/sbin/policy-rc.d
+    state: absent
+  when:
+    - ansible_pkg_mgr == "apt"
+    - apt_autostart_state == "enabled"

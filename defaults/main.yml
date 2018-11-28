@@ -1,0 +1,10 @@
+---
+# defaults file for apt_autostart
+
+# Should services be managed when installing software using apt?
+apt_autostart_state: disabled
+
+# Some Docker containers do not allow managing services, rebooting and writing
+# to some locations in /etc. The role skips tasks that will typically fail in
+# Docker. With this parameter you can tell the role to -not- skip these tasks.
+apt_autostart_ignore_docker: yes
