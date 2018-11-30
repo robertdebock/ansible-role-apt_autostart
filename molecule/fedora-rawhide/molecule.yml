@@ -15,6 +15,9 @@ platforms:
 provisioner:
   name: ansible
   inventory:
+    host_vars:
+      apt_autostart-fedora-rawhide:
+        ansible_python_interpreter: /usr/bin/python3
     group_vars:
       all:
         apt_autostart_ignore_docker: no
