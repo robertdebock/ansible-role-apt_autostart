@@ -2,7 +2,7 @@
 galaxy_info:
   author: Robert de Bock
   role_name: apt_autostart
-  description: The purpose of this role is to enable or disable automatic starting of servers upon installation of packages.
+  description: Enable or disable automatic starting of servers upon installation of packages.
   license: Apache-2.0
   company: none
   min_ansible_version: 2.6
@@ -17,7 +17,10 @@ galaxy_info:
         - bionic
 
   galaxy_tags:
-    - apt_autostart
+    - aptautostart
+    - apt
+    - autostart
+    - service
     - invokerc
     - sysvinit
     - systemctl
