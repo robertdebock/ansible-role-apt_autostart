@@ -3,7 +3,7 @@ apt_autostart
 
 [![Build Status](https://travis-ci.org/robertdebock/ansible-role-apt_autostart.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-apt_autostart)
 
-The purpose of this role is to enable or disable automatic starting of servers upon installation of packages.
+Enable or disable automatic starting of servers upon installation of packages.
 
 Example Playbook
 ----------------
