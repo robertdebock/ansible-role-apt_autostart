@@ -1,0 +1,4 @@
+---
+repository:
+  description: Enable or disable automatic starting of servers upon installation of packages.
+  homepage: https://robertdebock.nl/
