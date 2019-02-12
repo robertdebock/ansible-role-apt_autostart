@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: apt_autostart-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: apt_autostart-ubuntu-artful
-    image: ubuntu:artful
+  - name: apt_autostart-ubuntu-latest
+    image: ubuntu:latest
+  - name: apt_autostart-ubuntu-rolling
+    image: ubuntu:rolling
   - name: apt_autostart-ubuntu-devel
     image: ubuntu:devel
 provisioner:
