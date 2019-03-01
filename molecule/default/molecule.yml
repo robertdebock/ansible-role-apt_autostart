@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: apt_autostart-opensuse-leap
     image: opensuse:leap
-  - name: apt_autostart-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: apt_autostart-ubuntu-latest
     image: ubuntu:latest
   - name: apt_autostart-ubuntu-rolling
