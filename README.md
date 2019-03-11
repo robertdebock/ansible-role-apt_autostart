@@ -19,7 +19,6 @@ This example is taken from `molecule/default/playbook.yml`:
   roles:
     - role: robertdebock.bootstrap
     - role: robertdebock.apt_autostart
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -34,7 +33,6 @@ These variables are set in `defaults/main.yml`:
 
 # Should services be managed when installing software using apt?
 apt_autostart_state: disabled
-
 ```
 
 Requirements
