@@ -52,9 +52,6 @@ platforms:
   - name: apt_autostart-ubuntu-devel
     image: ubuntu:devel
     pre_build_image: yes
-  - name: apt_autostart-ubuntu-latest
-    image: ubuntu:latest
-    pre_build_image: yes
 provisioner:
   name: ansible
   playbooks:
