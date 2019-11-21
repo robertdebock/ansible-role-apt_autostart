@@ -27,7 +27,6 @@ galaxy_info:
     - invokerc
     - sysvinit
     - systemctl
-    - debian
     - ubuntu
 
 dependencies: []
