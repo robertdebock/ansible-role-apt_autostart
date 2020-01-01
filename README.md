@@ -4,6 +4,8 @@ apt_autostart
 <img src="https://docs.ansible.com/ansible-tower/3.2.4/html_ja/installandreference/_static/images/logo_invert.png" width="10%" height="10%" alt="Ansible logo" align="right"/>
 <a href="https://travis-ci.org/robertdebock/ansible-role-apt_autostart"> <img src="https://travis-ci.org/robertdebock/ansible-role-apt_autostart.svg?branch=master" alt="Build status"/></a> <img src="https://img.shields.io/ansible/role/d/33996"/> <img src="https://img.shields.io/ansible/quality/33996"/>
 
+<a href="https://github.com/robertdebock/ansible-role-apt_autostart/actions"><img src="https://github.com/robertdebock/ansible-role-apt_autostart/workflows/GitHub%20Action/badge.svg"/></a>
+
 Enable or disable automatic starting of servers upon installation of packages.
 
 Example Playbook
