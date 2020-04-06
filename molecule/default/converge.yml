@@ -5,4 +5,4 @@
   gather_facts: yes
 
   roles:
-    - ansible-role-apt_autostart
+    - role: ansible-role-apt_autostart
