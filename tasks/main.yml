@@ -4,7 +4,7 @@
   copy:
     dest: /usr/sbin/policy-rc.d
     content: "exit 101"
-    mode: 0755
+    mode: "755"
   when:
     - ansible_pkg_mgr == "apt"
     - apt_autostart_state == "disabled"
