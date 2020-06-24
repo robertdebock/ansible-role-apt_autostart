@@ -1,0 +1,7 @@
+---
+- name: test if apt_autostart_state is set correctly
+  assert:
+    that:
+      - apt_autostart_state is defined
+      - apt_autostart_state | length > 0
+      - apt_autostart_state in ["disabled", "enabled"]

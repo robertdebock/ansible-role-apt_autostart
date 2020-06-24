@@ -1,5 +1,8 @@
 ---
 # tasks file for apt_autostart
+- name: include assert.yml
+  include_tasks: assert.yml
+
 - name: disable automatic service management on installation
   copy:
     dest: /usr/sbin/policy-rc.d
