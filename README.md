@@ -53,6 +53,7 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for apt_autostart
+
 # Should services be managed when installing software using apt?
 apt_autostart_state: disabled
 ```
