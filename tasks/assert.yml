@@ -4,5 +4,5 @@
     that:
       - apt_autostart_state is defined
       - apt_autostart_state | length > 0
-      - apt_autostart_state in ["disabled", "enabled"]
+      - apt_autostart_state in [ "disabled", "enabled" ]
     quiet: yes
