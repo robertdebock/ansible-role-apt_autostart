@@ -1,4 +1,5 @@
 ---
+
 - name: test if apt_autostart_state is set correctly
   assert:
     that:
