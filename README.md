@@ -2,9 +2,9 @@
 
 Enable or disable automatic starting of servers upon installation of packages.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-apt_autostart.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-apt_autostart)|[![github](https://github.com/robertdebock/ansible-role-apt_autostart/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-apt_autostart/actions)|[![quality](https://img.shields.io/ansible/quality/33996)](https://galaxy.ansible.com/robertdebock/apt_autostart)|[![downloads](https://img.shields.io/ansible/role/d/33996)](https://galaxy.ansible.com/robertdebock/apt_autostart)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-apt_autostart.svg)](https://github.com/robertdebock/ansible-role-apt_autostart/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-apt_autostart.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-apt_autostart)|[![github](https://github.com/robertdebock/ansible-role-apt_autostart/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-apt_autostart/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-apt_autostart/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-apt_autostart)|[![quality](https://img.shields.io/ansible/quality/33996)](https://galaxy.ansible.com/robertdebock/apt_autostart)|[![downloads](https://img.shields.io/ansible/role/d/33996)](https://galaxy.ansible.com/robertdebock/apt_autostart)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-apt_autostart.svg)](https://github.com/robertdebock/ansible-role-apt_autostart/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
