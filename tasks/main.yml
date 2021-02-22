@@ -9,7 +9,7 @@
 - name: manage automatic service management
   block:
     - name: disable automatic service management on installation
-      copy:
+      ansible.builtin.copy:
         dest: /usr/sbin/policy-rc.d
         content: "exit 101"
         mode: "755"
@@ -17,7 +17,7 @@
         - apt_autostart_state == "disabled"
 
     - name: enable automatic service management on installation
-      file:
+      ansible.builtin.file:
         path: /usr/sbin/policy-rc.d
         state: absent
       when:
