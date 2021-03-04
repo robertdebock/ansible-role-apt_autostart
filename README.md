@@ -1,6 +1,6 @@
 # [apt_autostart](#apt_autostart)
 
-Enable or disable automatic starting of servers upon installation of packages.
+Enable or disable automatic starting of services upon installation of packages.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
