@@ -1,4 +1,4 @@
-# Ansible role [apt_autostart](#apt_autostart)
+# [Ansible role apt_autostart](#apt_autostart)
 
 Enable or disable automatic starting of services upon installation of packages.
 
