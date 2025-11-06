@@ -5,4 +5,4 @@
 repository:
   description: Enable or disable automatic starting of services upon installation of packages.
   homepage: https://robertdebock.nl/
-  topics: aptautostart, apt, autostart, service, invokerc, sysvinit, systemctl, system, ansible, molecule, tox, playbook
+  topics: aptautostart, apt, autostart, service, invokerc, sysvinit, systemctl, system, ansible, molecule, playbook
