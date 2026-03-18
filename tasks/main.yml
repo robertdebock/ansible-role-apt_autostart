@@ -9,7 +9,7 @@
 
 - name: Manage automatic service management
   when:
-    - ansible_pkg_mgr == "apt"
+    - ansible_facts['pkg_mgr'] == "apt"
   block:
     - name: Disable automatic service management on installation
       ansible.builtin.copy:

@@ -5,16 +5,27 @@ galaxy_info:
   description: Enable or disable automatic starting of services upon installation of packages.
   license: Apache-2.0
   company: none
-  min_ansible_version: "2.12"
-
+  min_ansible_version: '2.12'
   platforms:
+    - name: Amazon
+      versions:
+        - Candidate
     - name: Debian
       versions:
-        - all
+        - bullseye
+        - bookworm
+        - trixie
+    - name: EL
+      versions:
+        - '9'
+    - name: Fedora
+      versions:
+        - '42'
+        - '40'
     - name: Ubuntu
       versions:
-        - all
-
+        - jammy
+        - noble
   galaxy_tags:
     - aptautostart
     - apt
@@ -24,5 +35,4 @@ galaxy_info:
     - sysvinit
     - systemctl
     - system
-
 dependencies: []
